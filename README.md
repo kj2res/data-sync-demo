@@ -43,6 +43,11 @@ npm start
 ```
 Then server runs on http://localhost:3001
 
+## Endpoints
+
+I added the postman collections in the root folder called `data_sync_endpoints.postman_collection.json` or you can also use this public link https://www.getpostman.com/collections/a3a2cdf02612b7628fc9
+
+
 ## How does it work
 
 When I check the tech challenge about data synchronization, first thing comes into my mind is using `events`. Using `events` make this synchronization possible. These `events` are registered as soon as the server is up and running. If source A is updated, an event will be raised using the `emit()` function. Same thing happens to source B. We raised the `events` on `Create` and `Update` endpoints because that's where the changes happens.
