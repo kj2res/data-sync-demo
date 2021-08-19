@@ -74,6 +74,8 @@ Everything seems to be straightforward. But I'm just having fun working with the
 - Validations, Catching errors
 - Organize events in separate file
 - Add comments
+- Remove unused variables
 
-
+## Demo Video
+https://www.loom.com/share/cfda53f857fd4d5abdb8e1cb5c9f2e60
 
