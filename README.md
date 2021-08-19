@@ -58,7 +58,7 @@ I spent 4 hours and 20 minutes to be exact. I did some research on the idea of h
 
 ## Assumptions
 
-I only know that `events` will make this synchronization works. I had the same idea on my project before where I needed to inject `model events` or `model listeners`. The idea is just similar when using one data source - example for MySQL, when updating a row on Table A, you also need to update the related row on Table B.
+I know that `events` will make this synchronization works. I had the same idea on my project before where I needed to inject `model events` or `model listeners`. The idea is just similar when using one data source - example for MySQL, when updating a row on Table A, you also need to update the related row on Table B.
 
 ## Queries to resolve
 
@@ -78,4 +78,7 @@ Everything seems to be straightforward. But I'm just having fun working with the
 
 ## Demo Video
 https://www.loom.com/share/cfda53f857fd4d5abdb8e1cb5c9f2e60
+
+## Implementation Video
+https://www.loom.com/share/9f3c0e14420747019d53fa43739531fe
 
